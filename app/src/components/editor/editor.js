@@ -232,6 +232,7 @@ export default class Editor extends Component {
     dropDown() {
         document.querySelector('.dropdown-menu').classList.toggle('showMenu');
     }
+    
     dropDownBackups() {
         document.querySelector('.dropdown-menu-backups').classList.toggle('showMenuBackups');   
     }
